@@ -91,7 +91,7 @@ function App() {
 				<button type="submit">Add User</button>
 			</form>
 
-			<h2>Users List</h2>
+			<h2>Users</h2>
 			<ul>
 				{users.map((user) => (
 					<li key={user.id}>
